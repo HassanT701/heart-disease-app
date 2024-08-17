@@ -20,7 +20,7 @@ st.header('A small sample of the dataset used:')
 st.write(data.head())
 
 # Link to the dataset
-st.write(f"[Link to full dataset]({DATA_URL})   * NOTE: Target value 1 has been changed to 0; Target value 2 has been changed to 1 *")
+st.write(f"[Link to full dataset]({DATA_URL})")
 st.write("")
 st.write("Age: Age in years")
 st.write("Cp: Chest pain type (0 = typical angina; 1 = atypical angina; 2 = non-anginal pain; 3: asymptomatic)")
