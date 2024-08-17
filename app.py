@@ -115,6 +115,7 @@ for column in X.columns:
 
 user_input_df = pd.DataFrame(user_input, index=[0])
 user_input_scaled = scaler.transform(user_input_df)
+user_input_scaled = user_input_scaled.reshape(1, -1)
 
 if st.sidebar.button('Predict'):
     prediction = model.predict(user_input_scaled)
