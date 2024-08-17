@@ -11,7 +11,7 @@ from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau
 
 # Load the dataset
 DATA_URL = 'https://www.kaggle.com/datasets/shivarajmishra/heart-data?resource=download'
-data = pd.read_csv('/Users/hassantalha/Desktop/VS Code/heartDiseaseProj/data/heartDisease.csv')
+data = pd.read_csv('heartDisease.csv')
 
 # Display first 5 rows of the data
 st.title('Heart Disease Prediction')
