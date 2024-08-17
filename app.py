@@ -135,10 +135,3 @@ if st.sidebar.button('Predict'):
     plt.scatter(user_data['age'], user_data['chol'], color='black', s=100, edgecolor='k')
     
     st.pyplot(fig)
-    # Inject JavaScript code to scroll to the bottom
-    scroll_script = """
-    <script>
-    window.scrollTo(0, document.body.scrollHeight);
-    </script>
-    """
-    st.components.v1.html(scroll_script, height=0)
