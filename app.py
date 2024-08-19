@@ -27,7 +27,7 @@ st.write("Cp: Chest pain type (0 = typical angina; 1 = atypical angina; 2 = non-
 st.write("Trestbps: Resting blood pressure in mm Hg")
 st.write("Chol: Serum cholesterol in mg/dl")
 st.write("fbs: Fasting blood sugar > 120 mg/dl (1=true; 0=false)")
-st.write("Restecg: Resting electrocardiographic results (0 = normal; 1 = having ST-T wave abnormality; 2 = probable or definite left ventricular hypertrophy)")
+st.write("Restecg: Resting electrocardiographic results (0 = Normal; 1 = ST-T wave abnormality; 2 = Probable or definite left ventricular hypertrophy)")
 st.write("Thalach: Maximum heart rate achieved")
 st.write("Exang: Exercise-induced angina (Chest pain) (1 = yes; 0 = no)")
 st.write("Oldpeak: ST depression during exersize")
